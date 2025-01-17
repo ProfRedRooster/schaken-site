@@ -16,14 +16,13 @@
 	border-width: thin;
 	width: 440px;
 	text-align: center;
-	border-color: #0056b3; /* Blue accent */
 }
 
 /* MainTitleRow is the style for a row in the main title      */
 .MainTitleRow
 {
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 	font-weight: bold;
 }
 
@@ -32,10 +31,10 @@
 .Unit
 {
 	margin: 2px;
-	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-family: helvetica, arial, serif;
 	font-size: 1em;
 	vertical-align:top;
-	border-color: #b3b3b3;
+	border-color:grey;
 }
 
 .HFlex
@@ -65,13 +64,12 @@
 	width: 360px;
 	text-align: center;
 	padding: 2px;
-	border-color: #0056b3; /* Blue accent */
 }
 
 /* SingleLineRow is the style for the row in the singleLine   */
 .SingleLineRow
 {
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #e8f8e8;
 	font-size: 1em;
 }
 
@@ -81,13 +79,12 @@
 	border-style: solid;
 	border-width: thin;
 	padding: 2px;
-	border-color: #0056b3; /* Blue accent */
 }
 
 /* MemoRow is the style for the row in the memo               */
 .MemoRow
 {
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #e8f8e8;
 	font-size: 1em;
 }
 
@@ -98,7 +95,7 @@
 	border-style: solid;
 	border-width: thin;
 	border-spacing: 0px;
-	border-color: #b3b3b3;
+	border-color: grey;
 }
 
 .Logo img
@@ -113,7 +110,6 @@
 	border-style: solid;
 	border-width: thin;
 	width: 440px;
-	border-color: #0056b3; /* Blue accent */
 }
 
 /* style for the line in the competition info table           */
@@ -122,7 +118,7 @@
 {
 	font-weight: bold;
 	text-align: center;
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #e8e8e8;
 }
 
 /* style for the other competition info - caption             */
@@ -143,8 +139,8 @@
 {
 	font-weight: bold;
 	text-align: center;
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 }
 
 /* MainTable holds the style of the main table                */
@@ -160,7 +156,7 @@
 {
 	border-style: solid;
 	border-width: thin;
-	border-color: #b3b3b3;
+	border-color: grey;
 	width: 135px;
 	vertical-align: top;
 }
@@ -168,7 +164,7 @@
 /* MenuRow is the style for a row in the menu table           */
 .MenuRow
 {
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #e8f8e8;
 	overflow:hidden;
 	margin:1px;
 }
@@ -219,8 +215,8 @@
 {
 	font-weight: bold;
 	text-align: center;
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 }
 
 /* PlayerWebLink formats the cells where the player web links */
@@ -253,8 +249,8 @@
 /* a table with games                                         */
 .GameListHeader
 {
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 	font-weight: bold;
 }
 
@@ -269,7 +265,7 @@
 /* even indexes                                               */
 .GameListEvenLine
 {
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #d8f0d8;
 }
 
 /* Specific widths for the player names in the game list      */
@@ -290,8 +286,8 @@
 /* with players                                               */
 .PlayerListTitle
 {
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 	font-weight: bold;
 	text-align: center;
 }
@@ -300,8 +296,8 @@
 /* a table containing the list of players                     */
 .PlayerListHeader
 {
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 	font-weight: bold;
 }
 
@@ -316,7 +312,7 @@
 /* with even indexes                                          */
 .PlayerListEvenLine
 {
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #d8f0d8;
 }
 
 /* RankColumns is the Rank columns container - outside the    */
@@ -342,8 +338,8 @@
 /* headers                                                    */
 .RankingTitle
 {
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 	font-weight: bold;
 	text-align: center;
 }
@@ -352,8 +348,8 @@
 /* a table containing a ranking                               */
 .RankingHeader
 {
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 	font-weight: bold;
 }
 
@@ -368,7 +364,7 @@
 /* even indexes                                               */
 .RankingEvenLine
 {
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #d8f0d8;
 }
 
 /* XTable is the style for a table with an crosstable or      */
@@ -383,8 +379,8 @@
 /* a crosstable                                               */
 .XTableHeader
 {
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 	font-weight: bold;
 	vertical-align: bottom;
 }
@@ -400,7 +396,7 @@
 /* even indexes                                               */
 .XTableEvenLine
 {
-	background-color: #e6f7ff; /* Light blue */
+	background-color: #d8f0d8;
 }
 
 /* XTableCell is special styling for cells of a crosstable,   */
@@ -519,12 +515,13 @@
 
 .GameData
 {
-	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-family: helvetica, arial, serif;
 	font-weight: bold;
+/*	font-size: calc(1em+1pt); */
 	font-size: 1em;
 	text-align: center;
-	color: #ffffff;
-	background-color: #ff6600; /* Orange accent */
+	color: #f4e8f4;
+	background-color: #188048;
 }
 
 /* Board is the overall format for the board area             */
@@ -672,9 +669,6 @@ body
 {
 	background-color: #ffffff;
 	font-size: 8pt;
-	font-family: 'Helvetica Neue', Arial, sans-serif;
-	margin: 0;
-	padding: 0;
 }
 
 ul
@@ -701,59 +695,7 @@ td,th
 
 a
 {
-	color: #0056b3; /* Blue accent */
-}
-
-.MainTitle, .SingleLineTitle, .CompInfoTable
-{
-	width: 100%;
-	max-width: 440px;
-	margin: 0 auto;
-}
-
-.Unit, .PlayerDataTable, .GameListTable, .PlayerListTable, .RankingTable, .XTable
-{
-	width: 100%;
-	max-width: 180px;
-	margin: 0 auto;
-}
-
-.MoveListContainer, .MoveListContainerRows
-{
-	width: 100%;
-	max-width: 450px;
-	height: auto;
-	max-height: 280px;
-	overflow: auto;
-}
-
-@media (max-width: 600px) {
-	.MainTitle, .SingleLineTitle, .CompInfoTable, .Unit, .PlayerDataTable, .GameListTable, .PlayerListTable, .RankingTable, .XTable {
-		width: 100%;
-		max-width: none;
-	}
-
-	.MoveListContainer, .MoveListContainerRows {
-		width: 100%;
-		max-width: none;
-		height: auto;
-		max-height: none;
-	}
-
-	/* Adjust font sizes for smaller screens */
-	body {
-		font-size: 10pt;
-	}
-
-	td, th {
-		font-size: 1em;
-	}
-
-	/* Ensure images are responsive */
-	img {
-		max-width: 100%;
-		height: auto;
-	}
+	color: #282828;
 }
 
 
